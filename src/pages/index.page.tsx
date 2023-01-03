@@ -1,5 +1,4 @@
-import { Heading } from '@ignite-ui/react'
+// O arquivo referente ao componente home fica separado para manter o arquivo style.ts
+// na mesma pasta.
 
-export default function Home() {
-  return <Heading as="h1">Ignite Call</Heading>
-}
+export { default } from './home'
