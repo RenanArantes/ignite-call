@@ -8,8 +8,9 @@
 
 ---
 
-<p align="center"> O Ignite Call é um projeto de agendamento de conversas/reuniões criado durante o programa ignite da [Rocketseat](https://rocketseat.com.br/).
-    <br> 
+<p align="center">
+  O Ignite Call é um projeto de agendamento de conversas/reuniões criado durante o programa ignite da 
+  <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>.
 </p>
 
 ## 📝 Table of Contents
