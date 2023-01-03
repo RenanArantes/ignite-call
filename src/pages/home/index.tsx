@@ -3,6 +3,7 @@ import { Container, Hero, Preview } from './styles'
 
 import previewImage from '../../assets/app-preview.png'
 import Image from 'next/image'
+import { ClaimUserNameForm } from './components/ClaimUserNameForm'
 
 // Esse arquivo não segue a config de pageExtensions pois é importado e executado em
 // src/pages/index.tsx para preservar a rota '/' como sendo a home.
@@ -18,6 +19,8 @@ export default function Home() {
           Conecte seu calendário e permita que as pessoas marquem agendamentos
           em seu tempo livre.
         </Text>
+
+        <ClaimUserNameForm />
       </Hero>
       <Preview>
         <Image
