@@ -4,10 +4,6 @@
   </a>
 </p>
 
-<h3 align="center">Ignite Call</h3>
-
----
-
 <p align="center">
   O Ignite Call é um projeto de agendamento de conversas/reuniões criado durante o programa ignite da 
   <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>.
