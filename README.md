@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
-    <img width=200px height=200px src="./assets/src/ignite-call.svg" alt="Ignite Call logo">
+    <img width=200px height=200px src="./src/assets/ignite-call.svg" alt="Ignite Call logo">
   </a>
 </p>
 
