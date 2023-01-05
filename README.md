@@ -33,3 +33,4 @@ Clone o repositório
 - [ReactJS](https://reactjs.org/) - ReactJS
 - [NextJS](https://www.nextjs.org/) - NextJS
 - [Typescript](https://www.typescriptlang.org/) - Typescript
+- [Prisma] (https://www.prisma.io) - Prisma
