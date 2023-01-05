@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { prisma } from '../../../lib/prisma'
 
-interface DataType {
+interface BodyDataType {
   name: string
   fullName: string
 }
@@ -12,7 +12,7 @@ export default async function handler(
 ) {
   if (req.method !== 'POST') res.status(405).end()
 
-  const { name, fullName } = req.body
+  const { name, fullName }: BodyDataType = req.body
 
   const user = await prisma.user.create({
     data: {
