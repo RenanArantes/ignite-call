@@ -35,7 +35,17 @@ export default function Register() {
   const router = useRouter()
 
   useEffect(() => {
-    setValue('username', String(router.query.username))
+    switch (typeof router.query.username) {
+      case 'string':
+        setValue('username', router.query.username)
+        break
+      case 'object':
+        setValue('username', router.query.username[0])
+        break
+      default:
+        setValue('username', '')
+        break
+    }
   }, [router.query?.username, setValue])
 
   function handleCreateUser(data: RegisterFormData) {
