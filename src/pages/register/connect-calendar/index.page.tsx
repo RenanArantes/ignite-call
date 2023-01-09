@@ -25,7 +25,7 @@ export default function Register() {
     router.query.error &&
       isSignedIn &&
       router.replace('/register/connect-calendar', undefined, { shallow: true })
-  }, [hasAuthError, isSignedIn, router])
+  }, [isSignedIn, router])
 
   async function handleConnectCalendar() {
     await signIn('google')
